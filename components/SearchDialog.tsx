@@ -271,19 +271,6 @@ export function SearchDialog() {
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors"
                   onClick={(_) =>
-                    setSearch('离婚需要双方同意吗？')
-                  }
-                >
-                  离婚需要双方同意吗？
-                </button>
-                <button
-                  type="button"
-                  className="px-1.5 py-0.5
-                  bg-slate-50 dark:bg-gray-500
-                  hover:bg-slate-100 dark:hover:bg-gray-600
-                  rounded border border-slate-200 dark:border-slate-600
-                  transition-colors"
-                  onClick={(_) =>
                     setSearch('民间借贷受国家保护的合法利息是多少？')
                   }
                 >
